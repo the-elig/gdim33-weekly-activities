@@ -7,8 +7,7 @@
 4. Eric mostly likes FPS and multiplayer games. Not horror games. I'm kind of in agreement with that latter half. Despite wanting to make a horror-adjacent game, I'm most interested in chill, player-centric experiences- think Minecraft or Stardew Valley. Personally, I'm not into FPS, since it stresses me out but to each their own. 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
-
+[My Project Breakdown](https://docs.google.com/drawings/d/1epRFtQUTlTe-iDQQwPYfwYcRhpC2QUZgBSj0izOXRdU/edit?usp=sharing)
 
 ## W2
 Write your W2 Devlog here.
