@@ -11,7 +11,17 @@
 
 ## W3
 ### Activity 1
-[GDIM 33 Breakdown.pdf](https://github.com/user-attachments/files/26767639/GDIM.33.Breakdown.pdf)
+[Project Breakdown Updated](https://docs.google.com/drawings/d/1epRFtQUTlTe-iDQQwPYfwYcRhpC2QUZgBSj0izOXRdU/edit?usp=sharing)
 
-### Activity 2
+### Activity 
+#### Why is it advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable ("clickNpcEventName")
+Saving the event name as a string prevents accidental typos when triggering the event in another graph, since you need to enter the event name manually, and it won't alert you if the event doesn't exist with a red underline like it would in code. 
 
+#### Describe how using at least one Debug.Log() node helped you test your Graphs at an intermediate step.
+Using a Debug.Log() to check if the mouse click was registering, and then another to see if the event was triggered helped me find where the code wasn't connecting properly, since the mouse was registering, but the event wasn't triggering. Thus, I knew the error was in the logic for the event triggering, not in the Mouse Down node.
+
+#### Is the Set Cursor Lock State relevant to your Vertical Slice? Why or why not?
+No, since I will not be using the mouse to control the camera, so there is no need to lock/unlock it when pulling up UI elements.
+
+#### Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
+Yes, as there are two main states in which gameplay occurs: each with their own seperate logic systems and set transitions between them. 
