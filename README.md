@@ -9,7 +9,9 @@
 ### Activity 2
 [My Project Breakdown](https://docs.google.com/drawings/d/1epRFtQUTlTe-iDQQwPYfwYcRhpC2QUZgBSj0izOXRdU/edit?usp=sharing)
 
-## W2
-Write your W2 Devlog here.
+## W3
+### Activity 1
+[GDIM 33 Breakdown.pdf](https://github.com/user-attachments/files/26767639/GDIM.33.Breakdown.pdf)
 
-Continue adding additional headers below this one for future weeks and future activities.
+### Activity 2
+
