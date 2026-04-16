@@ -13,7 +13,7 @@
 ### Activity 1
 [Project Breakdown Updated](https://docs.google.com/drawings/d/1epRFtQUTlTe-iDQQwPYfwYcRhpC2QUZgBSj0izOXRdU/edit?usp=sharing)
 
-### Activity 
+### Activity 2
 #### Why is it advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable ("clickNpcEventName")
 Saving the event name as a string prevents accidental typos when triggering the event in another graph, since you need to enter the event name manually, and it won't alert you if the event doesn't exist with a red underline like it would in code. 
 
