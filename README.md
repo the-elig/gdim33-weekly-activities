@@ -25,3 +25,19 @@ No, since I will not be using the mouse to control the camera, so there is no ne
 
 #### Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
 Yes, as there are two main states in which gameplay occurs: each with their own seperate logic systems and set transitions between them. 
+
+
+## W4
+### Activity 1
+Team: Eli, Milla, Ruth, Minjoo
+
+
+In my game's current state, you can click through dialogue, and choose different options and get different dialogue results (branching dialogyue). Additionally, the Journal button can open and close the Journal UI. For a playtesting goal, I want to know if the speaker is clear within the dialogue, as occasionally the player speaks in lines outside of the branching dialogue. 
+
+
+Notes: 
+- Journal button click also triggers `AdvanceDialogue()` method, so the player misses dialogue when the Journal is open
+- it _is_ clear who is speaking thanks to the italics when the player speaks (which is placeholder for a different font)
+- dialogue system is super smooth
+- would like to see the unbuilt environment I have planned
+
