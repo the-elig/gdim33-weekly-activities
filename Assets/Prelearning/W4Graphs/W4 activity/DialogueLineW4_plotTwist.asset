@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
   m_Name: DialogueLineW4_plotTwist
   m_EditorClassIdentifier: 
+  triggerParticles: 0
   Line: but they all lead to the same place!!!
   ReplyOptions: []

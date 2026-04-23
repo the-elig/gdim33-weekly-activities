@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
   m_Name: DialogueLineW4_secondNode
   m_EditorClassIdentifier: 
+  triggerParticles: 1
   Line: for my next trick there will be more options
   ReplyOptions:
   - line: door number 1

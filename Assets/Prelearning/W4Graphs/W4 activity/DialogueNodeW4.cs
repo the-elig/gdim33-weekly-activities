@@ -9,6 +9,8 @@ namespace W4Activity
         //---------------------------------------------------------------------
         // Variables
         //---------------------------------------------------------------------
+        public bool triggerParticles;
+
         [Tooltip("The line of dialogue the NPC says in this node.")]
         public string Line;
 
