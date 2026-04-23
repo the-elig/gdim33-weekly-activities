@@ -29,12 +29,11 @@ Yes, as there are two main states in which gameplay occurs: each with their own 
 
 ## W4
 ### Activity 1
-__Playtesting Intro__
+Team: Eli, Milla, Ruth, Minjoo
+
+
 In my game's current state, you can click through dialogue, and choose different options and get different dialogue results (branching dialogyue). Additionally, the Journal button can open and close the Journal UI. For a playtesting goal, I want to know if the speaker is clear within the dialogue, as occasionally the player speaks in lines outside of the branching dialogue. 
 
-
-__Playtesting Notes__
-Team: Eli, Milla, Ruth, Minjoo
 
 Notes: 
 - Journal button click also triggers `AdvanceDialogue()` method, so the player misses dialogue when the Journal is open
