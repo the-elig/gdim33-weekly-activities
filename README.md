@@ -41,3 +41,10 @@ Notes:
 - dialogue system is super smooth
 - would like to see the unbuilt environment I have planned
 
+
+### Activity 2
+A writer could write the dialogue without ever opening the scripts! Although, in its current set-up, they would have to open Unity and navigate the file system there to edit the dialogue nodes. That being said, there is no limit to the number of dialogue nodes that a writer could create. They would never need to open up Visual Studio Code. 
+
+The "Regenerate Nodes" button basically refreshes what methods (nodes) have been made avaiable (created) since the last refresh. If you wrote a method that isn't showing up in Visual Scripting, try refreshing the nodes. 
+
+
