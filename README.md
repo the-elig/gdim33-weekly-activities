@@ -47,8 +47,8 @@ A writer could write the dialogue without ever opening the scripts! Although, in
 
 The "Regenerate Nodes" button basically refreshes what methods (nodes) have been made avaiable (created) since the last refresh. If you wrote a method that isn't showing up in Visual Scripting, try refreshing the nodes. 
 
-<img width="1095" height="889" alt="Screenshot 2026-04-22 191819" src="https://github.com/user-attachments/assets/d2355783-ea67-436d-a633-b2512f34b752" />
-<img width="1235" height="773" alt="Screenshot 2026-04-22 191757" src="https://github.com/user-attachments/assets/ec5f6d2b-931b-4c72-b9d8-83212dcf7549" />
+<img width="543" height="445" alt="Screenshot 2026-04-22 191819" src="https://github.com/user-attachments/assets/d2355783-ea67-436d-a633-b2512f34b752" />
+<img width="618" height="387" alt="Screenshot 2026-04-22 191757" src="https://github.com/user-attachments/assets/ec5f6d2b-931b-4c72-b9d8-83212dcf7549" />
 
 
 
