@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueLineW4_startingNode
+  m_EditorClassIdentifier: 
+  Line: woah this is a starting line of dialogue
+  ReplyOptions:
+  - line: woah you have options
+    nextNode: {fileID: 11400000, guid: ef354b99d91aa414290d3cdc38b8a91a, type: 2}
+  - line: here's another one!
+    nextNode: {fileID: 11400000, guid: 6b8450112d7d9bb429555f79aac4c740, type: 2}
