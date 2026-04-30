@@ -64,15 +64,15 @@ when there is branching dialogue:
    - go to next dialogue node
 
 **To Be Built**
- 1) create a reference for how much and how the Player’s sanity is modified (added/subtracted) depending on how a recollection is sorted (correctly/incorrectly)
-   a. create an (int) SanityValue in the RecollectionNode
-   b. create a (bool) Real variable in the RecollectionNode
-   c. check if the player sorts the Recollection according to the (bool) Real variable, or opposes it
- 2) display current sanity, and have it updated depending on the aforementioned sorting
-   a. create an (int) SanityMeter variable in the Player
-   b. if the player sorts the Recollection correctly, add the SanityValue to SanityMeter
-   c. if the player sorts the Recollection incorrectly, subtract the SanityValue from the SanityMeter
-   d. create a UI element and reference to it, and set its text equal to the SanityMeter value
+1) create a reference for how much and how the Player’s sanity is modified (added/subtracted) depending on how a recollection is sorted (correctly/incorrectly)
+   - create an (int) SanityValue in the RecollectionNode
+   - create a (bool) Real variable in the RecollectionNode
+   - check if the player sorts the Recollection according to the (bool) Real variable, or opposes it
+2) display current sanity, and have it updated depending on the aforementioned sorting
+   - create an (int) SanityMeter variable in the Player
+   - if the player sorts the Recollection correctly, add the SanityValue to SanityMeter
+   - if the player sorts the Recollection incorrectly, subtract the SanityValue from the SanityMeter
+   - create a UI element and reference to it, and set its text equal to the SanityMeter value
 
 ## Activity 2
 I implemented all of the steps that I mentioned in Activity 1. 
