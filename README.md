@@ -54,6 +54,8 @@ The "Regenerate Nodes" button basically refreshes what methods (nodes) have been
 ## W5
 ### Activity 1
 **What's Built**
+
+
 when there is branching dialogue:
  - there is information to be saved to the journal
    - if the information is a fact, save it to facts
