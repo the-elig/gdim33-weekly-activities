@@ -51,11 +51,30 @@ The "Regenerate Nodes" button basically refreshes what methods (nodes) have been
 <img width="618" height="387" alt="Screenshot 2026-04-22 191757" src="https://github.com/user-attachments/assets/ec5f6d2b-931b-4c72-b9d8-83212dcf7549" />
 
 
-## W$
- - fdjfal;sdfjkal
-   - jfkdaj;slkfjak;sdfma
-   - fkadsj;fajsdf
- -fdsajf;skldjfa 
+## W5
+### Activity 1
+**What's Built**
+when there is branching dialogue:
+ - there is information to be saved to the journal
+   - if the information is a fact, save it to facts
+   - if it is a recollection (being sorted), save it to the recollections, with differing information depending on how they categorize it
+(i am able to tell what option is chosen in scripts)
+   - go to next dialogue node
+ - there is NOT information to be saved to the journal
+   - go to next dialogue node
 
+**To Be Built**
+ 1) create a reference for how much and how the Player’s sanity is modified (added/subtracted) depending on how a recollection is sorted (correctly/incorrectly)
+   a. create an (int) SanityValue in the RecollectionNode
+   b. create a (bool) Real variable in the RecollectionNode
+   c. check if the player sorts the Recollection according to the (bool) Real variable, or opposes it
+ 2) display current sanity, and have it updated depending on the aforementioned sorting
+   a. create an (int) SanityMeter variable in the Player
+   b. if the player sorts the Recollection correctly, add the SanityValue to SanityMeter
+   c. if the player sorts the Recollection incorrectly, subtract the SanityValue from the SanityMeter
+   d. create a UI element and reference to it, and set its text equal to the SanityMeter value
+
+## Activity 2
+I implemented all of the steps that I mentioned in Activity 1. 
 
 
