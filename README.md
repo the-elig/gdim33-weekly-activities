@@ -88,3 +88,13 @@ Notes:
 - name tags for different speakers
 - bigger UI/text
 - cool environment
+
+
+### Activity 2
+Why does the Multiply setting of the Blend node make the resulting color darker and less saturated than the input colors?
+Hint 1: The Multiply option literally multiplies the values given, so a vector A = (R1, G1, B1) Blended with a vector B = (R2, G2, B2) with the Multiply option will result in a vector C = (R1*R2, G1*G2, B1*B2).
+
+1. Because on a color wheel, the larger an RGB value is (either from 0-255 or from 0-1), the closer to black it is, and multiplying the values creates a bigger value than if it was just added or left alone. 
+2. If the alpha value is multiplied, it will be less translucent for a similar reason to the answer to the first question. The larger the alpha value is, the less transparent/more opaque the texture will be.
+3. The shader gets the UV coordinates from the vectors stored in the mesh.
+4. I'll be honest, it's still very confusing to me. However, it is super interesting, and I wouldn't be opposed to working with it in the future.
