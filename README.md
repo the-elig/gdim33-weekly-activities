@@ -76,7 +76,12 @@ when there is branching dialogue:
    - if the player sorts the Recollection incorrectly, subtract the SanityValue from the SanityMeter
    - create a UI element and reference to it, and set its text equal to the SanityMeter value
 
-## Activity 2
+### Activity 2
 I implemented all of the steps that I mentioned in Activity 1. 
 
 
+## W6
+### Activity 1
+Here is my new [Itch Build](https://moon-shroom.itch.io/head-count-playtest-1). Since Milestone 1, I have implemented the sanity system. The goal of this playtest is centered around the game's aesthetic. Does it communicate the vibe of "corporate" within the therapist's office? Additionally, however, do all of the methods of control in the game (mainly the mouse) make sense and flow well?
+
+Notes:
