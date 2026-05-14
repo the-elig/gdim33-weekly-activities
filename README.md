@@ -98,23 +98,10 @@ Notes:
 
 
 ## W7
-For our vertex color shader in step (2), where did the data for the Vertex Color node come from?
 1. The data comes from the vectors in the Shiba Mesh
-
-Since vertex color is stored as data in each vertex of the mesh, why is the color on our shiba from step (3) blended at the edges of different regions of color?
 2. The color is blended at the edge of different regions of color because not every surface on the Shiba is a vertex, rather it is polygons that use the data from the vertices to be colored. 
-
-Why is the shiba from step (3), which is colored with vertex color, less detailed than the shiba we rendered with a texture in last week’s activity? Given that vertex color generally results in a less detailed color application than applying a texture, what can you imagine vertex color is useful for?
 3. Vertex color is quick and messy, like using a large brush on a paint brush. So it's great for assets that are only seen from afar or can be detailed at a later stage.
-
-Based on the color of the shiba in step (3), does anything look wrong with the mesh’s vertex normals?
 4. Based on the Shiba's vertex coloring, nothing looks from with the vertex normals.
-
-We used the color output of a shader to visualize a mesh’s vertex normal values in step (4). Name one other piece of vertex data (or any kind of data) you can imagine testing with a debug shader like this, and describe why that might be useful.
 5. You can use the Tangent data to visualize how a mesh's mapping is working and spot any discrepancies in it.
-
-Why is there an error in the lighting in step (4) on the back of the Shiba?
 6. Based on how we are calculating the lighting in step 4, what should be lit on the shiba model has surface normals pointing towards the light, which results in a negative value when plugged into a dot product, thus it is dark. The way we fix this is by (mathmatically) flipping the direction of the surface normals of the shiba before we put it into the dot product.
-
-Why do you think we set the Blend Mode to Additive for the fire effect in Step (5)?
 7. If the blending mode isn't set on something beside Alpha, it won't take the alpha value into account when it is calculating translucency. 
