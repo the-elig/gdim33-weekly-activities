@@ -104,4 +104,26 @@ Notes:
 4. Based on the Shiba's vertex coloring, nothing looks from with the vertex normals.
 5. You can use the Tangent data to visualize how a mesh's mapping is working and spot any discrepancies in it.
 6. Based on how we are calculating the lighting in step 4, what should be lit on the shiba model has surface normals pointing towards the light, which results in a negative value when plugged into a dot product, thus it is dark. The way we fix this is by (mathmatically) flipping the direction of the surface normals of the shiba before we put it into the dot product.
-7. If the blending mode isn't set on something beside Alpha, it won't take the alpha value into account when it is calculating translucency. 
+7. If the blending mode isn't set on something beside Alpha, it won't take the alpha value into account when it is calculating translucency.
+
+
+## W8
+### Activity 1
+[Here](https://moon-shroom.itch.io/head-count-playtest-2) is my new itch.io build that was tested this week. My playtesting goals largely revolved around aesthetics, action/consequence legibility, and UI understanding. 
+
+Notes: 
+- make textbox darker so text is easier to read
+- likes therapist office environment
+- indicate that the journal button is a button in some way
+  - make tutorial clearer?
+- likes the journal UI with the text and next/back buttons
+  - feels smooth and it's clear what is happening when you press each button
+  - aesthetic is cool/calming (likes the assets I chose)
+- sanity bar would be cool (said after I mentioned that I would be implementing that in the future)
+- excited to see implementation of memory environment (understood that was what was happening with the scene change)
+
+### Activity 2c
+1. Our post processing effect is associated with the pass "FullScreenPassRendererFeature". I knew this because, besides the name, the output preview within the Frame Debugger only started showing the cobblestone texture on that pass and afterwards.
+2. At 0.5, the cobblestone texture is at 50% opacity. At 0 is is completely translucent, and at 1 it is nearly opaque (it isn't completely because it is still taking into account the original colors on screen, which it is multiplying with the cobblestone texture values).
+3. In simple terms, the float input between 0 and 1 is modifying how strongly the cobblestone texture is overlayed with the original pixels of the screen. More specifically, it is modifying the color values on the cobblestone texture from its original color to white, which doesn't show at all since it is simply multiplying the original pixel value (before post processing) by 1.
+4. A standard sine graph modulates between -1 and 1, so by adding one and dividing by two, we are making it only modulate between 0 and 1, which is what the Lerp is meant to take. 
