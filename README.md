@@ -126,4 +126,19 @@ Notes:
 1. Our post processing effect is associated with the pass "FullScreenPassRendererFeature". I knew this because, besides the name, the output preview within the Frame Debugger only started showing the cobblestone texture on that pass and afterwards.
 2. At 0.5, the cobblestone texture is at 50% opacity. At 0 is is completely translucent, and at 1 it is nearly opaque (it isn't completely because it is still taking into account the original colors on screen, which it is multiplying with the cobblestone texture values).
 3. In simple terms, the float input between 0 and 1 is modifying how strongly the cobblestone texture is overlayed with the original pixels of the screen. More specifically, it is modifying the color values on the cobblestone texture from its original color to white, which doesn't show at all since it is simply multiplying the original pixel value (before post processing) by 1.
-4. A standard sine graph modulates between -1 and 1, so by adding one and dividing by two, we are making it only modulate between 0 and 1, which is what the Lerp is meant to take. 
+4. A standard sine graph modulates between -1 and 1, so by adding one and dividing by two, we are making it only modulate between 0 and 1, which is what the Lerp is meant to take.
+
+
+## W9
+### Activity 1
+We chose Minecraft :D
+1. Taking Damage -- tinting the skin texture red when taking damage
+   - assuming there is already backing logic created, you would just add the tint logic to the taking damage event
+2. Warden Darkness Effect -- post processor effect on entire screen which creates a pulsing, super dark vignette
+   - if player is within certain proximity to warden + warden sends out darkness, start darkness effect
+   - darkness effect created by increasing/decreasing intensity of vignette with a time node of some kind
+3. Nasea -- another post processor effect that warps the screen repeatedly
+   - assuming other things are built, if something is consumed, check the item ID
+   - if it is nasea, start pot-processing effect that overlays the screen with warping
+   - check nasea level for how intense the warping should be
+   - check potion duration for how long it should last
