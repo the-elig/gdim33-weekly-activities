@@ -142,3 +142,9 @@ We chose Minecraft :D
    - if it is nasea, start pot-processing effect that overlays the screen with warping
    - check nasea level for how intense the warping should be
    - check potion duration for how long it should last
+
+### Activity 2
+<img width="730" height="622" alt="glitch-shader-graph" src="https://github.com/user-attachments/assets/52453679-05ce-4e56-a100-4f76a4625218" />
+
+A problem I solved, which probably isn't what the prompt meant, was that I realized I didn't create the project using the URP, so I had to install the package and reset the shader settings on a bunch of my materials. If that doesn't count, my shader graph uses a Random Range node, and for a bit I couldnt figure out why that wasn't doing anything, until I realized I had to hook it up to a Time node so that it was repeatedly called.
+
