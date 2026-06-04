@@ -148,3 +148,21 @@ We chose Minecraft :D
 
 A problem I solved, which probably isn't what the prompt meant, was that I realized I didn't create the project using the URP, so I had to install the package and reset the shader settings on a bunch of my materials. If that doesn't count, my shader graph uses a Random Range node, and for a bit I couldnt figure out why that wasn't doing anything, until I realized I had to hook it up to a Time node so that it was repeatedly called.
 
+
+## W10
+### Activity 1
+[Here](https://moon-shroom.itch.io/head-count-playtest-3) is my Itch link. Since Milestone 3 I have updated some dialogue nodes with better dialogue and have fixed some scene switching issues where it switches before the recollection is over. I've also created a separate office that holds glitching, so that it is progressive, rather than immediate.
+
+Playtesting Notes:
+- possibly put night-sky skybox for the classroom scene
+- make scrolling journal UI more obvious
+- make scrolling journal UI sensitivity higher
+- make my glitching shader graph retain original material color rather than overwrite to magenta (so it is more subtle/attention drawing)?
+
+
+### Activity 2: Planning Process
+1. First, have your overall goal for the game, including your mechanics, the aesthetic, and any other major features you'll need to implement
+2. For all major features (or at least all of the ones you've never implemented before/don't have a solid idea on how to do), create a task breakdown. This could be a visual aid or a "step-by-step" description like what we've done in class
+3. Have a priority list for your tasks from the get-go, and add as you go. Take special note if certain features require other features to be finished first
+4. Reflect on what you've just written out, especially the task breakdown. Does anything breakdown to be a lot of work? Re-evaluate as you go along. If something of high priority is taking a long time/a lot of work, possibly scope down on smaller priority tasks.
+5. Iterate! Keep going over this as you continue in your project. Things might change, and that's okay!
