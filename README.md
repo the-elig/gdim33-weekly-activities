@@ -166,3 +166,6 @@ Playtesting Notes:
 3. Have a priority list for your tasks from the get-go, and add as you go. Take special note if certain features require other features to be finished first
 4. Reflect on what you've just written out, especially the task breakdown. Does anything breakdown to be a lot of work? Re-evaluate as you go along. If something of high priority is taking a long time/a lot of work, possibly scope down on smaller priority tasks.
 5. Iterate! Keep going over this as you continue in your project. Things might change, and that's okay!
+
+### Activity 3
+One of the big things I did was fix a transparancy issue for the hair material for the therapist, where you could see bits of the texture that you shouldn't have been able to see. This was fixed with alpha clipping. The other thing I fixed was the Glitch shader graph to use different textures depending on the material, where before it overrode everything to a default magenta base color. This required me to re-figure out the Sample 2D Texture node in conjunction with the graph variables. 
